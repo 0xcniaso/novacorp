@@ -228,9 +228,16 @@ a:active { text-decoration: none; }
   .card {
     top: 0;
     left: 0;
+    max-width:100%;
+    height:auto;
   }
 
   .card-balance {
     top: 0;
+  }
+
+  .card-num,
+  .exp-date {
+    font-size: 10px;
   }
 }
